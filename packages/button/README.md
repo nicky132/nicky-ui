@@ -1,11 +1,11 @@
-# `@cico/button`
+# `@nicky/button`
 
 > TODO: description
 
 ## Usage
 
 ```
-const button = require('@cico/button');
+const button = require('@nicky/button');
 
 // TODO: DEMONSTRATE API
 ```

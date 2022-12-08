@@ -1,14 +1,10 @@
 {
-  "name": "@cico/button",
+  "name": "@nicky/button",
   "version": "1.0.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nicky132/nicky-ui.git"
-  },
-  "license": "ISC",
   "author": "nicky132 <hhq87776153@hotmail.com>",
+  "license": "ISC",
   "main": "lib/button.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
@@ -17,17 +13,6 @@
     "es",
     "dist"
   ],
-  "scripts": {
-    "build": "father build",
-    "test": "node ./__tests__/@cico/button.test.js"
-  },
-  "dependencies": {
-    "@babel/runtime": "7.16.3",
-    "classnames": "^2.3.1"
-  },
-  "devDependencies": {
-    "father": "^4.0.0-rc.2"
-  },
   "peerDependencies": {
     "antd": "4.x",
     "react": ">=16.9.0",
@@ -36,5 +21,21 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicky132/nicky-ui.git"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.16.3",
+    "classnames": "^2.3.1"
+  },
+  "devDependencies": {
+    "father": "^4.0.0-rc.2"
+  },
+  "scripts": {
+    "build": "father build",
+    "test": "node ./__tests__/@nicky/button.test.js"
+  },
+  "gitHead": "f6942bc43c75976b2dd4071199298ee124bd422d"
 }

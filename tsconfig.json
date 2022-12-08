@@ -10,8 +10,8 @@
     "skipLibCheck": true,
     "declaration": true,
     "paths": {
-      "@cico/button": ["./packages/button/src/index.tsx"],
-      "@cico/tag": ["./packages/tag/src/index.tsx"]
+      "@nicky/button": ["./packages/button/src/index.tsx"],
+      "@nicky/tag": ["./packages/tag/src/index.tsx"]
     }
   }
 }
