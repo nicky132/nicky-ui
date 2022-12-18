@@ -11,7 +11,8 @@
     "declaration": true,
     "paths": {
       "@nicky/button": ["./packages/button/src/index.tsx"],
-      "@nicky/tag": ["./packages/tag/src/index.tsx"]
+      "@nicky/tag": ["./packages/tag/src/index.tsx"],
+      "@nicky/alert": ["./packages/alert/src/index.tsx"],
     }
   }
 }

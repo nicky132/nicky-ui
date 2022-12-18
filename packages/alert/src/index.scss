@@ -1,0 +1,99 @@
+@import '../src/style/variables.scss';
+
+.tb-alert {
+  padding: 8px 16px;
+  border-radius: 4px;
+  position: relative;
+  transition: opacity 0.2s;
+  opacity: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+
+  .iconfont {
+    vertical-align: baseline;
+  }
+}
+
+.tb-alert__content {
+  padding: 0 8px;
+}
+
+.tb-alert__title {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.tb-alert__closebtn {
+  font-size: 12px;
+  color: #b4bccc;
+  top: 12px;
+  right: 15px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.tb-alert--primary {
+  color: $color-primary;
+  background-color: $color-primary-light5;
+}
+
+.tb-alert--success {
+  color: $color-success;
+  background-color: $color-success-light5;
+}
+
+.tb-alert--info {
+  color: $color-info;
+  background-color: $color-info-light5;
+
+}
+
+.tb-alert--warning {
+  color: $color-warning;
+  background-color: $color-warning-light5;
+
+}
+
+.tb-alert--danger {
+  color: $color-danger;
+  background-color: $color-danger-light5;
+
+}
+
+.tb-alert__icon {
+  font-size: 16px;
+  width: 16px;
+}
+
+.w-alert__closebtn.is-customed {
+  font-style: normal;
+  font-size: 13px;
+  top: 9px;
+}
+
+.tb-alert.is-center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tb-alert__title.is-bold {
+  font-weight: 700;
+}
+
+.tb-alert__description {
+  font-size: 13px;
+  margin: 5px 0 0;
+  color: inherit;
+}
+
+.tb-alert__icon.is-big {
+  font-size: 28px;
+  width: 28px;
+}
+
+.tb-alert-fade-leave,
+.tb-alert-fade-leave-active {
+  opacity: 0;
+}
